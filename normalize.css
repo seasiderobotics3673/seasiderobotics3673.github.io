@@ -6,6 +6,26 @@
  *    without disabling user zoom.
  */
 
+/**
+Imported from other sources
+*/
+ #slideshow {
+     margin: 50px auto;
+     position: relative;
+     width: 700px;
+     height: 525px;
+     padding: 10px;
+     box-shadow: 1px 1px 10px #000;
+ }
+
+ #slideshow > div {
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     right: 10px;
+     bottom: 10px;
+ }
+
 html {
   font-family: 'Roboto',sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -34,6 +54,7 @@ p {
   box-shadow: 1px 1px 10px #000;
   color: white;
   background-color: #5B8DBF;
+  padding: 10px;
 
 }
 
@@ -93,15 +114,15 @@ body {
 }
 
 p{
-            margin: 0 auto;
-            width: 750px;
-			color: #fff;
+    margin: 0 auto;
+    width: 750px;
+		color: #fff;
 }
 
 h1 {
-			color: #E5E5E5;
-            font-size: 2em;
-            font-weight: 400;
+		color: #E5E5E5;
+    font-size: 2em;
+    font-weight: 400;
 }
 h2 {
   color: #E5E5E5;
@@ -110,7 +131,7 @@ h2 {
 h3 {
   color: #E5E5E5;
   font-weight: 4;
-  text-decoration: underline;
+
 }
 /* HTML5 display definitions
    ========================================================================== */
