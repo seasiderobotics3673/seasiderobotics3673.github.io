@@ -1,13 +1,10 @@
 <html>
-<head>
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="normalize.css" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link rel="icon" href="icon.ico" sizes="16x16 32x32" type="image/x-icon"/>
 <meta name="viewport" content="width=device-width">
 
-
-</head>
 <a href="home.html"><img src="newlogo500.png"></a>
 <table align="center" style="width: 800px">
 	<tr>
@@ -21,13 +18,25 @@
 </table>
 <br>
 <body>
+	<div class="pagewrapwrap">
+		<div class="pagewrap"><h1>Home</h1></div>
+	</div>
 <div class="pagewrapwrap">
 <div class="pagewrap">
 
-<h1>Home</h1>
 <br><br>
 
-	<h3>Work Nights</h3><br>
+<h3>Wilsonville 2016 VODs</h3>
+
+<div onclick="play();" class="vidwrap" id="vidwrap"><div class="playbutton"><img src="source/play.png"></div></div>
+
+<script type="text/javascript">function play(){
+	document.getElementById('vidwrap').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/VB4pFwCr9tQ?list=PLwES-SbpsnxwEM7fo-UxZR3KobNYZ_JYA&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0"></iframe>';
+}
+</script>
+
+<br><br>
+	<h3>Work Nights</h3>
 	<b>Build Season</b>
 	<table align="center" style="width: 600px">
 		<tr>
@@ -74,26 +83,30 @@
 	</table>
 
 	<br><br>
-	<h3>Links and Available Sources</h3><br>
+	<h3>Links and Available Sources</h3>
 	<p style="width: 80%">
 	Looking for more information on FIRST Robotics or other programs associated with it?<br>
 	Please check out the links below.</p><br><br>
 
-	<h3>Curated List of FRC Resources</h3>
 
-	<p style="width: 40%"><a href="https://github.com/andrewda/awesome-frc/">Awesome FRC</a></p><br><br>
 
-	<h3>FIRST Programs:</h3><br>
+		<h3>CYBORG Seagulls Team 3673 Code Repo</h3>
+		<p style="width: 20%"><a href="https://github.com/mrmbrown/team3673">Team 3673 Github</a></p><br>
 
-<p style="width: 40%">
-	<a href="http://www.firstinspires.org/robotics/fll">FIRST LEGO League (FLL)</a><br>
-	<a href="http://www.firstinspires.org/robotics/ftc">FIRST Tech Challenge (FTC)</a><br>
-	<a href="http://www.firstinspires.org/robotics/frc">FIRST Robotics Competition (FRC)</a><br>
-</p>
-	<br>
-	<h3>More items of interest:</h3>
+
+		<h3>FIRST Programs</h3>
+	<p style="width: 35%">
+		<a href="http://www.firstinspires.org/robotics/fll">FIRST LEGO League (FLL)</a><br>
+		<a href="http://www.firstinspires.org/robotics/ftc">FIRST Tech Challenge (FTC)</a><br>
+		<a href="http://www.firstinspires.org/robotics/frc">FIRST Robotics Competition (FRC)</a><br>
+	</p>
 <br>
+
+
+	<h3>More items of interest</h3>
 <p style="width: 70%">
+	<a href="https://github.com/andrewda/awesome-frc/">Awesome FRC</a>: Curated List of FRC Resources<br>
+	<a href="https://www.youtube.com/watch?v=9MxQhbFKvKo">PNW FRC 2016</a>: Highlights from 2016 PNW District<br>
 	<a href="http://www.chiefdelphi.com/forums/portal.php">Chief Delphi</a>:  A discussion forum available for discussion of the FRC.<br>
 	<a href="http://oregonfirst.org/">Oregon FIRST Robotics</a>:  The Oregon FRC site.<br>
 	<a href="http://www.firstwa.org/">Washington/Northwest FIRST Robotics</a>:  The Washington/Northwest FRC site.<br>

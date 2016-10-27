@@ -26,6 +26,33 @@ Imported from other sources
      bottom: 10px;
  }
 
+ .playbutton {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    align-self: center;
+    }
+
+.playbutton:hover {
+    opacity: 0.3;
+}
+
+.vidwrap {
+  display: flex;
+  justify-content: center;
+  width:50%;margin: 0 auto;
+  height:390px;
+  width:700px;
+  background: black url('source/newlogolightblue.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow:hidden;
+  cursor:pointer;
+}
+
 html {
   font-family: 'Roboto',sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
