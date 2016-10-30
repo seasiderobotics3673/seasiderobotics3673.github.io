@@ -95,7 +95,13 @@ table {
   background-color: #5B8DBF;
   border-radius: 10px;
 }
-
+.tableG {
+  box-shadow: 1px 1px 10px #000;
+  color: white;
+  background-color: #959595;
+  width: 800px;
+  border-radius: 10px;
+}
 
 .navButton {
    background: #00275B;
