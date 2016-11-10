@@ -31,9 +31,6 @@
   height:390px;
   width:700px;
   background: black url('source/newlogolightblue.png') no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   overflow:hidden;
   cursor:pointer;
@@ -42,12 +39,12 @@
 .containerP {
   width: 80px;
   height: 80px;
-  border-radius: 30px;
+  border-radius: 50%;
   filter: grayscale(100%);
   transition: all 0.5s ease;
 }
 .containerP:hover {
-  border-radius: 0px;
+  border-radius: 10%;
   filter: grayscale(0%);
 }
 html {
