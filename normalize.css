@@ -27,8 +27,10 @@
 .vidwrap {
   display: flex;
   justify-content: center;
-  width:50%;margin: 0 auto;
+  width:50%;
+  margin: 0 auto;
   height:390px;
+  box-shadow: 0px 0px 10px #000;
   width:700px;
   background: black url('source/newlogolightblue.png') no-repeat center;
   background-size: cover;
@@ -83,21 +85,23 @@ table {
 }
 td {
   text-align: center;
+  margin: 2vw;
 }
 .tableG {
-  box-shadow: 1px 1px 10px #000;
+  box-shadow: none;
   color: white;
-  background-color: #959595;
-  width: 800px;
-  border-radius: 10px;
+  background-color: transparent;
+  width: fit-content;
+  /* border-radius: 1px; */
 }
 .navButton {
    background: #00275B;
    color: white;
    font-size: 25px;
    vertical-align: middle;
-   padding: 5px;
+   padding: 2px 9px;
    box-shadow: 1px 1px 10px #000;
+   margin: 5px;
    border-radius: 10px;
    transition: all 0.2s ease;
 }
@@ -123,7 +127,7 @@ td {
   box-shadow: 0px 0px 10px #000;
   background-color: #959595;
   margin: 0 auto;
-  width: 810px;
+  width: fit-content;
   border-radius: 10px;
 }
 body {
