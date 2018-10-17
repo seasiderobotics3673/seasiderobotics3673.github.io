@@ -8,10 +8,6 @@
      border-radius: 10px;
 }
 
-.tbc {
-object-fit:cover;
-}
-
 #slideshow > div {
      position: absolute;
      top: 10px;
