@@ -155,8 +155,12 @@ table {
 td {
 	text-align: center;
 }
-tr {
-	
+.articleembed {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 2%;
+	margin: 4%;
 }
 .rostertable {
 	width: 80%!important;
