@@ -1,68 +1,74 @@
 <html>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="icon.ico" sizes="16x16 32x32" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width">
+			<a href="home.html">
+				<img src="source/newlogo500.png">
+				</a>
+				<table align="center" class="tableG">
+					<tr>
+						<td >
+							<a type="button" class="navButton" style="color: white;" href="home.html">Home</a>
+						</td>
+						<td >
+							<a type="button" class="navButton" style="color: white;" href="photos.html">Photos</a>
+						</td>
+						<td >
+							<a type="button" class="navButton" style="color: white;" href="team.html">Info</a>
+						</td>
+						<td >
+							<a type="button" class="navButton" style="color: white;" href="news.html">News</a>
+						</td>
+						<td >
+							<a type="button" class="navButton" style="color: white;" href="history.html">History</a>
+						</td>
+						<td >
+							<a type="button" class="navButton" style="color: white;" href="contact.html">Contact</a>
+						</td>
+					</tr>
+				</table>
+				<title>Photos</title>
+				<body>
+					
+						<div class="article">
+						<!-- Content in a page goes between article tags -->
+					
+						<h1>Slideshow: 2016 Season</h1>
 
-<link href="normalize.css" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-<link rel="icon" href="icon.ico" sizes="16x16 32x32" type="image/x-icon"/>
-<meta name="viewport" content="width=device-width">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<a href="home.html"><img src="source/newlogo500.png"></a>
-<table align="center" class="tableG">
-	<tr>
-		<td ><a type="button" class="navButton" style="color: white;" href="home.html">Home</a></td>
-		<td ><a type="button" class="navButton" style="color: white;" href="photos.html">Photos</a></td>
-		<td ><a type="button" class="navButton" style="color: white;" href="team.html">Team Info</a></td>
-		<td ><a type="button" class="navButton" style="color: white;" href="news.html">News</a></td>
-		<td ><a type="button" class="navButton" style="color: white;" href="history.html">Team History</a></td>
-		<td ><a type="button" class="navButton" style="color: white;" href="contact.html">Contact</a></td>
-	</tr>
-</table>
-<br>
-<body>
-	<div class="pagewrapwrap">
-		<div class="pagewrap"><h1>Photos</h1></div>
-	</div>
-<div class="pagewrapwrap">
-<div class="pagewrap">
+						<iframe src="https://docs.google.com/presentation/d/1tQt_lg0TjVSKLXhrHuo8zYfCmR7CZtIPB1FGpPyOUug/embed?start=true&loop=true&delayms=30000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+						<br /><br /><h1>Slideshow: 2017 Season</h1>
+						<iframe src="https://docs.google.com/presentation/d/1X2uTNT2Iv8uD3cooXHd9AvHDyRzB1lXkjuXKf1nEb9Y/embed?start=true&loop=true&delayms=30000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<br><br>
-<h1>Slideshow: 2016 Season</h1>
+						<!-- Clackamas 2017 -->
+						<br /><br /><h1>Video: Clackamas 2017 VODs</h1>
+						<div onclick="play3();" class="vidwrap" id="vidwrap3"><div class="playbutton"><img src="source/play.png"></div></div>
 
+						<script type="text/javascript">function play3(){
+							document.getElementById('vidwrap3').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/JPO_a6iJHqs?list=PLwES-SbpsnxxxpYZDWe8y64ZqWn5x8Nyu&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>';
+						}
+						</script>
 
-<iframe src="https://docs.google.com/presentation/d/1tQt_lg0TjVSKLXhrHuo8zYfCmR7CZtIPB1FGpPyOUug/embed?start=true&loop=true&delayms=30000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-<br /><br /><h1>Slideshow: 2017 Season</h1>
-<iframe src="https://docs.google.com/presentation/d/1X2uTNT2Iv8uD3cooXHd9AvHDyRzB1lXkjuXKf1nEb9Y/embed?start=true&loop=true&delayms=30000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+						<!--Wilsonville 2017-->
+						<br /><br /><h1>Video: Wilsonville 2017 VODs</h1>
+						<div onclick="play1();" class="vidwrap" id="vidwrap1"><div class="playbutton"><img src="source/play.png"></div></div>
 
-<!-- Clackamas 2017 -->
-<br /><br /><h1>Video: Clackamas 2017 VODs</h1>
-<div onclick="play3();" class="vidwrap" id="vidwrap3"><div class="playbutton"><img src="source/play.png"></div></div>
+						<script type="text/javascript">function play1(){
+							document.getElementById('vidwrap1').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/kPko1YtdO_g?list=PLwES-SbpsnxwBSvg_2Y1DjB1IGjOnBXLd&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>';
+						}
+						</script>
 
-<script type="text/javascript">function play3(){
-	document.getElementById('vidwrap3').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/JPO_a6iJHqs?list=PLwES-SbpsnxxxpYZDWe8y64ZqWn5x8Nyu&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>';
-}
-</script>
+						<!--Wilsonville 2016-->
+						<br /><br /><h1>Video: Wilsonville 2016 VODs</h1>
+						<div onclick="play2();" class="vidwrap" id="vidwrap2"><div class="playbutton"><img src="source/play.png"></div></div>
 
-<!--Wilsonville 2017-->
-<br /><br /><h1>Video: Wilsonville 2017 VODs</h1>
-<div onclick="play1();" class="vidwrap" id="vidwrap1"><div class="playbutton"><img src="source/play.png"></div></div>
+						<script type="text/javascript">function play2(){
+							document.getElementById('vidwrap2').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/VB4pFwCr9tQ?list=PLwES-SbpsnxwEM7fo-UxZR3KobNYZ_JYA&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0"></iframe>';
+						}
+						</script>
 
-<script type="text/javascript">function play1(){
-	document.getElementById('vidwrap1').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/kPko1YtdO_g?list=PLwES-SbpsnxwBSvg_2Y1DjB1IGjOnBXLd&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>';
-}
-</script>
-
-<!--Wilsonville 2016-->
-<br /><br /><h1>Video: Wilsonville 2016 VODs</h1>
-<div onclick="play2();" class="vidwrap" id="vidwrap2"><div class="playbutton"><img src="source/play.png"></div></div>
-
-<script type="text/javascript">function play2(){
-	document.getElementById('vidwrap2').innerHTML = '<iframe width="700" height="390" src="https://www.youtube.com/embed/VB4pFwCr9tQ?list=PLwES-SbpsnxwEM7fo-UxZR3KobNYZ_JYA&fs=0&color=white&modestbranding=1&showinfo=0&autoplay=1" frameborder="0"></iframe>';
-}
-</script>
-
-<br><br>
-</div>
-</div>
+						</div>
+<footer>team3673.org | CYBORG Seagulls | Seaside, OR</footer>
 </body>
-<br />
 </html>

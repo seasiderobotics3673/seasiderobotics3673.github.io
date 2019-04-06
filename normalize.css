@@ -126,6 +126,7 @@ a:visited {
   width: 900px;
   color: #fff;
   margin-bottom: 4%;
+  margin-top: 4%;
 }
 .article table {
 	border-radius: 10px;
@@ -156,6 +157,9 @@ td {
 }
 tr {
 	
+}
+.rostertable {
+	width: 80%!important;
 }
 .tableG {
   color: white;
