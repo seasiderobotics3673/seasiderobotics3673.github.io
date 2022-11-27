@@ -12,6 +12,8 @@ html {
 
 @keyframes background {
       0%{background-color: skyblue}
+      50%{background-color: skyblue}
+      100%{background-color: skyblue}
       
 }
 body {
