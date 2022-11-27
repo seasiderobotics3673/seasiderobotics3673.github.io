@@ -11,9 +11,8 @@ html {
 
 
 @keyframes background {
-      0%{background-color: teal}
-      50%{background-color: skyblue}
-      100%{background-color: teal}
+      0%{background-color: skyblue}
+      
 }
 body {
 	margin: auto;
