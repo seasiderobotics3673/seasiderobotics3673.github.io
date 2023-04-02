@@ -18,7 +18,7 @@ html {
 }
 body {
 	margin: auto;
-	width: 50%; <!--chaneged to 50-->
+	width: 100%;
 	display: table-cell;
     vertical-align: middle;
     margin: 2em auto;
